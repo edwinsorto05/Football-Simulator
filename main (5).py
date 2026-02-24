@@ -124,7 +124,7 @@ while True:
     #user selects a matchup from laliga
     if laliga == '1' or laliga == 'Real Madrid vs. Barcelona':
       #Real Madrid stats and lineup
-      team1 = Team('Real Madrid', 0, 0, 0, 88, 88, 88, 88, 88, ['Thibaut Courtois', 'Álvaro Carreras', 'Dean Huijsen', 'Raúl Asencio', 'Federico Valverde', 'Jude Bellingham', 'Aurélien Tchouaméni', 'Eduardo Camavinga', 'Vinicius', 'Kylian Mbappé', 'Rodrygo'])
+      team1 = Team('Real Madrid', 0, 0, 0, 88, 88, 88, 88, 88, ['Thibaut Courtois', 'Álvaro Carreras', 'Dean Huijsen', 'Raúl Asencio', 'Federico Valverde', 'Jude Bellingham', 'Aurélien Tchouaméni', 'Eduardo Camavinga', 'Vinícius Júnior', 'Kylian Mbappé', 'Rodrygo'])
       #Barcelona stats and lineup
       team2 = Team('Barcelona', 0, 0, 0, 88, 88, 88, 88, 88, ['Joan García', 'Alejandro Balde', 'Eric García', 'Pau Cubarsí', 'Jules Koundé', 'Pedri', 'Frenkie de Jong', 'Fermín López', 'Raphinha', 'Robert Lewandowski', 'Lamine Yamal'])
       break
@@ -132,7 +132,7 @@ while True:
       #Atlético Madrid stats and lineup
       team1 = Team('Atlético Madrid', 0, 0, 0, 87, 87, 87, 87, 87, ['Jan Oblak', 'Matteo Ruggeri', 'Dávid Hancko', 'Marc Pubill', 'Marcos Llorente', 'Álex Baena', 'Pablo Barrios', 'Koke', 'Giuliano Simeone', 'Julián Alvarez', 'Alexander Sørloth'])
       #Real Madrid stats and lineup
-      team2 = Team('Real Madrid', 0, 0, 0, 88, 88, 88, 88, 88, ['Thibaut Courtois', 'Álvaro Carreras', 'Antonio Rüdiger', 'Raúl Asencio', 'Federico Valverde', 'Jude Bellingham', 'Aurélien Tchouaméni', 'Eduardo Camavinga', 'Rodrygo', 'Vinicius', 'Gonzalo García'])
+      team2 = Team('Real Madrid', 0, 0, 0, 88, 88, 88, 88, 88, ['Thibaut Courtois', 'Álvaro Carreras', 'Antonio Rüdiger', 'Raúl Asencio', 'Federico Valverde', 'Jude Bellingham', 'Aurélien Tchouaméni', 'Eduardo Camavinga', 'Rodrygo', 'Vinícius Júnior', 'Gonzalo García'])
       break
     elif laliga == '3' or laliga == 'Barcelona vs. Atlético Madrid':
       #Barcelona stats and lineup
@@ -155,21 +155,21 @@ while True:
     #user selects a matchup from bundesliga
     if bundesliga == '1' or bundesliga == 'Bayern Munich vs. Borussia Dortmund':
       #Bayern Munich stats and lineup
-      team1 = Team('Bayern Munich', 0, 0, 0, 90, 90, 90, 90, 90, ['Manuel Neuer', 'Lucas Hernandez', 'Niklas Süle', 'Benjamin Pavard', 'Leon Goretzka', 'Joshua Kimmich', 'Kingsley Coman', 'Leroy Sané', 'Thomas Müller', 'Serge Gnabry', 'Sadio Mané'])
+      team1 = Team('Bayern Munich', 0, 0, 0, 89, 89, 89, 89, 89, ['Manuel Neuer', 'Konrad Laimer', 'Jonathan Tah', 'Dayot Upamecano', 'Sacha Boey', 'Aleksandar Pavlović', 'Joshua Kimmich', 'Luis Díaz', 'Serge Gnabry', 'Michael Olise', 'Harry Kane'])
       #Borussia Dortmund stats and lineup
-      team2 = Team('Borussia Dortmund', 0, 0, 0, 87, 87, 87, 87, 87, ['Gregor Kobel', 'Raphaël Guerreiro', 'Manuel Akanji', 'Emre Can', 'Felix Passlack', 'Axel Witsel', 'Thorgan Hazard', 'Jude Bellingham', 'Giovanni Reyna', 'Marius Wolf', 'Erling Haaland'])
+      team2 = Team('Borussia Dortmund', 0, 0, 0, 84, 84, 84, 84, 84, ['Gregor Kobel', 'Nico Schlotterbeck', 'Waldemar Anton', 'Niklas Süle', 'Daniel Svensson', 'Felix Nmecha', 'Pascal Groß', 'Marcel Sabitzer', 'Julian Ryerson', 'Karim Adeyemi', 'Serhou Guirassy'])
       break
     elif bundesliga == '2' or bundesliga == 'Borussia Dortmund vs. RB Leipzig':
       #Borussia Dortmund stats and lineup
-      team1 = Team('Borussia Dortmund', 0, 0, 0, 87, 87, 87, 87, 87, ['Gregor Kobel', 'Raphaël Guerreiro', 'Manuel Akanji', 'Emre Can', 'Felix Passlack', 'Axel Witsel', 'Thorgan Hazard', 'Jude Bellingham', 'Giovanni Reyna', 'Marius Wolf', 'Erling Haaland'])
+      team1 = Team('Borussia Dortmund', 0, 0, 0, 84, 84, 84, 84, 84, ['Gregor Kobel', 'Ramy Bensebaini', 'Waldemar Anton', 'Luca Reggiani', 'Daniel Svensson', 'Jobe Bellingham', 'Julian Ryerson', 'Marcel Sabitzer', 'Felix Nmecha', 'Serhou Guirassy', 'Maximilian Beier'])
       #RB Leipzig stats and lineup
-      team2 = Team('RB Leipzig', 0, 0, 0, 87, 87, 87, 87, 87, ['Péter Gulácsi', 'Joško Gvardiol', 'Willi Orbán', 'Mohamed Simakan', 'Angeliño', 'Kevin Kampl', 'Dominik Szoboszlai', 'Benjamin Henrichs', 'Dani Olmo', 'André Silva', 'Christopher Nkunku'])
+      team2 = Team('RB Leipzig', 0, 0, 0, 84, 84, 84, 84, 84, ['Maarten Vandevoordt', 'David Raum', 'Castello Lukeba', 'Willi Orbán', 'Ridle Baku', 'Nicolas Seiwald', 'Xaver Schlager', 'Yan Diomande', 'Christoph Baumgartner', 'Brajan Gruda', 'Rômulo Cardoso'])
       break
     elif bundesliga == '3' or bundesliga == 'RB Leipzig vs. Bayern Munich':
       #RB Leipzig stats and lineup
-      team1 = Team('RB Leipzig', 0, 0, 0, 87, 87, 87, 87, 87, ['Péter Gulácsi', 'Joško Gvardiol', 'Willi Orbán', 'Mohamed Simakan', 'Angeliño', 'Kevin Kampl', 'Konrad Laimer', 'Dominik Szoboszlai', 'Dani Olmo', 'André Silva', 'Christopher Nkunku'])
+      team1 = Team('RB Leipzig', 0, 0, 0, 84, 84, 84, 84, 84, ['Maarten Vandevoordt', 'David Raum', 'Castello Lukeba', 'Willi Orbán', 'Ridle Baku', 'Christoph Baumgartner', 'Xaver Schlager', 'Nicolas Seiwald', 'Antonio Nusa', 'Rômulo Cardoso', 'Yan Diomande'])
       #Bayern Munich stats and lineup
-      team2 = Team('Bayern Munich', 0, 0, 0, 90, 90, 90, 90, 90, ['Manuel Neuer', 'Lucas Hernandez', 'Dayot Upamecano', 'Benjamin Pavard', 'Jamal Musiala', 'Joshua Kimmich', 'Kingsley Coman', 'Leroy Sané', 'Thomas Müller', 'Serge Gnabry', 'Robert Lewandowski'])
+      team2 = Team('Bayern Munich', 0, 0, 0, 89, 89, 89, 89, 89, ['Manuel Neuer', 'Alphonso Davies', 'Jonathan Tah', 'Dayot Upamecano', 'Josip Stanišić', 'Aleksandar Pavlović', 'Joshua Kimmich', 'Luis Díaz', 'Serge Gnabry', 'Michael Olise', 'Harry Kane'])
       break
     else:
       #if user inputs anything other than '1', '2', or '3', the screen is cleared and user can return to menu
@@ -186,21 +186,21 @@ while True:
     #user selects a matchup from ligue 1
     if ligue1 == '1' or ligue1 == 'PSG vs. Lyon':
       #PSG stats and lineup
-      team1 = Team('PSG', 0, 0, 0, 87, 88, 88, 88, 88, ['Keylor Navas', 'Nuno Mendes', 'Presnel Kimpembe', 'Marquinhos', 'Achraf Hakimi', 'Marco Verratti', 'Danilo Pereira', 'Leandro Paredes', 'Kylian Mbappé', 'Neymar', 'Lionel Messi'])
+      team1 = Team('PSG', 0, 0, 0, 88, 88, 88, 88, 88, ['Lucas Chevalier', 'Lucas Hernández', 'Willian Pacho', 'Illia Zabarnyi', 'Warren Zaïre-Emery', 'Vitinha', 'Fabián Ruiz', 'João Neves', 'Senny Mayulu', 'Khvicha Kvaratskhelia', 'Lee Kang-in'])
       #Lyon stats and lineup
-      team2 = Team('Lyon', 0, 0, 0, 83, 83, 83, 83, 83, ['Anthony Lopes', 'Emerson', 'Castello Lukeba', 'Thiago Mendes', 'Léo Dubois', 'Tanguy Ndombele', 'Maxence Caqueret', 'Karl Toko Ekambi', 'Lucas Paquetá', 'Romain Faivre', 'Moussa Dembélé'])
+      team2 = Team('Lyon', 0, 0, 0, 83, 83, 83, 83, 83, ['Dominik Greif', 'Moussa Niakhaté', 'Clinton Mata', 'Ruben Kluivert', 'Nicolás Tagliafico', 'Tyler Morton', 'Tanner Tessmann', 'Ainsley Maitland-Niles', 'Afonso Moreira', 'Khalis Merah', 'Rachid Ghezzal'])
       break
     elif ligue1 == '2' or ligue1 == 'Marseille vs. PSG':
       #Marseille stats and lineup
-      team1 = Team('Marseille', 0, 0, 0, 82, 82, 82, 82, 82, ['Steve Mandanda', 'Luan Peres', 'Duje Ćaleta-Car', 'William Saliba', 'Pol Lirola', 'Pape Gueye', 'Valentin Rongier', 'Amine Harit', 'Mattéo Guendouzi', 'Cengiz Ünder', 'Cédric Bakambu'])
+      team1 = Team('Marseille', 0, 0, 0, 82, 82, 82, 82, 82, ['Jeffrey de Lange', 'Facundo Medina', 'Leonardo Balerdi', 'Benjamin Pavard', 'Emerson', 'Pierre-Emile Højbjerg', 'Quinten Timber', 'Timothy Weah', 'Ethan Nwaneri', 'Mason Greenwood', 'Amine Gouiri'])
       #PSG stats and lineup
-      team2 = Team('PSG', 0, 0, 0, 88, 88, 88, 88, 88, ['Keylor Navas', 'Nuno Mendes', 'Presnel Kimpembe', 'Marquinhos', 'Achraf Hakimi', 'Marco Verratti', 'Idrissa Gueye', 'Leandro Paredes', 'Kylian Mbappé', 'Neymar', 'Lionel Messi'])
+      team2 = Team('PSG', 0, 0, 0, 88, 88, 88, 88, 88, ['Matvei Safonov', 'Nuno Mendes', 'Willian Pacho', 'Marquinhos', 'Warren Zaïre-Emery', 'João Neves', 'Vitinha', 'Senny Mayulu', 'Bradley Barcola', 'Ousmane Dembélé', 'Désiré Doué'])
       break
     elif ligue1 == '3' or ligue1 == 'Lyon vs. Monaco':
       #Lyon stats and lineup
-      team1 = Team('Lyon', 0, 0, 0, 83, 83, 83, 83, 83, ['Anthony Lopes', 'Emerson', 'Castello Lukeba', 'Thiago Mendes', 'Léo Dubois', 'Tanguy Ndombele', 'Maxence Caqueret', 'Karl Toko Ekambi', 'Lucas Paquetá', 'Romain Faivre', 'Moussa Dembélé'])
+      team1 = Team('Lyon', 0, 0, 0, 83, 83, 83, 83, 83, ['Dominik Greif', 'Nicolás Tagliafico', 'Clinton Mata', 'Ruben Kluivert', 'Abner Vinícius', 'Tyler Morton', 'Corentin Tolisso', 'Ainsley Maitland-Niles', 'Khalis Merah', 'Pavel Šulc', 'Afonso Moreira'])
       #AS Monaco stats and lineup
-      team2 = Team('Monaco', 0, 0, 0, 83, 83, 83, 83, 83, ['Alexander Nübel', 'Caio Henrique', 'Benoît Badiashile', 'Axel Disasi', 'Ruben Aguilar', 'Aurélien Tchouaméni', 'Aleksandr Golovin', 'Jean Lucas', 'Youssouf Fofana', 'Gelson Martins', 'Wissam Ben Yedder'])
+      team2 = Team('Monaco', 0, 0, 0, 83, 83, 83, 83, 83, ['Lukas Hradecky', 'Caio Henrique', 'Mohammed Salisu', 'Thilo Kehrer', 'Christian Mawissa', 'Aleksandr Golovin', 'Jordan Teze', 'Mamadou Coulibaly', 'Maghnes Akliouche', 'Folarin Balogun', 'Mika Biereth'])
       break
     else:
       #if user inputs anything other than '1', '2', or '3', the screen is cleared and user can return to menu
@@ -210,28 +210,28 @@ while True:
   elif league == "6" or league == "MLS":
     print(magenta + "Choose your matchup: (select a number)")
     print(green + "  1. New England Revolution vs. New York Red Bulls")
-    print(green + "  2. LAFC vs. LA Galaxy")
+    print(green + "  2. LAFC vs. Inter Miami")
     print(green + "  3. CF Montréal vs. Toronto FC")
     mls = input("> ")
     print(white + "")
     #user selects a matchup from the MLS
     if mls == '1' or mls == 'New England Revolution vs. New York Red Bulls':
       #New England Revolution stats and lineup
-      team1 = Team('New England Revolution', 0, 0, 0, 77, 77, 77, 77, 77, ['Matt Turner', 'DeJuan Jones', 'Henry Kessler', 'Andrew Farrell', 'Brandon Bye', 'Matt Polster', 'Tommy McNamara', 'Sebastian Lletget', 'Carles Gil', 'Gustavo Bou', 'Adam Buksa'])
+      team1 = Team('New England Revolution', 0, 0, 0, 75, 75, 75, 75, 75, ['Aljaž Ivačič', 'Tanner Beason', 'Keegan Hughes', 'Brayan Ceballos', 'Brandon Bye', 'Alhassan Yusuf', 'Matt Polster', 'Peyton Miller', 'Carles Gil', 'Luca Langoni', 'Leonardo Campana'])
       #New York Red Bulls stats and lineup
-      team2 = Team('New York Red Bulls', 0, 0, 0, 75, 75, 75, 75, 75, ['Carlos Miguel Coronel', 'Aaron Long', 'Sean Nealis', 'Tom Edwards', 'John Tolkin', 'Dru Yearwood', 'Frankie Amaya', 'Lewis Morgan', 'O.G.F. Mosso', 'Patryk Klimala', 'Tom Barlow'])
+      team2 = Team('New York Red Bulls', 0, 0, 0, 75, 75, 75, 75, 75, ['Carlos Coronel', 'Omar Velencia', 'Noah Eile', 'Sean Nealis', 'Kyle Duncan', 'Ronald Donkor', 'Daniel Edelman', 'Wikelman Carmona', 'Emil Forsberg', 'Mohammed Sofo', 'Eric Maxim Choupo-Moting'])
       break
-    elif mls == '2' or mls == 'LAFC vs. LA Galaxy':
+    elif mls == '2' or mls == 'LAFC vs. Inter Miami':
       #LAFC stats and lineup
-      team1 = Team('LAFC', 0, 0, 0, 76, 76, 76, 76, 76, ['Maxime Crépeau', 'Diego Palacios', 'Mamadou Fall', 'Jesús Murillo', 'Ryan Hollingshead', 'Francisco Ginella', 'Ilie Sánchez', 'Letif Blessing', 'Brian Rodríguez', 'Cristian Arango', 'Carlos Vela'])
-      #LA Galaxy stats and lineup
-      team2 = Team('LA Galaxy', 0, 0, 0, 75, 75, 75, 75, 75, ['Jonathan Bond', 'Raheem Edwards', 'Derrick Williams', 'Nick DePuy', 'Kelvin Leerdam', 'Samuel Grandsir', 'Marco Delgado', 'Rayan Reveloson', 'Kévin Cabral', 'Efraín Álvarez', 'Javier Hernández'])
+      team1 = Team('LAFC', 0, 0, 0, 79, 79, 79, 79, 79, ['Hugo Lloris', 'Eddie Segura', 'Ryan Porteous', 'Nkosi Tafari', 'Sergi Palencia', 'Marco Delgaldo', 'Stephen Eustáquio', 'Timothy Tillman', 'Denis Bouanga', 'Son Heung-min', 'David Martínez'])
+      #Inter Miami stats and lineup
+      team2 = Team('Inter Miami', 0, 0, 0, 79, 79, 79, 79, 79, ['Dayne St. Clair', 'Noah Allen', 'Micael', 'Maximiliano Falcón', 'Ian Fray', 'Yannick Bright', 'Rodrigo De Paul', 'Telasco Segovia', 'Lionel Messi', 'Mateo Silvetti', 'Germán Berterame'])
       break
     elif mls == '3' or mls == 'CF Montréal vs. Toronto FC':
       #CF Montréal stats and lineup
-      team1 = Team('CF Montréal', 0, 0, 0, 75, 75, 75, 75, 75, ['Sebastian Breza', 'Kamal Miller', 'Rudy Camacho', 'Joel Waterman', 'Lassi Lappalainen', 'Victor Wanyama', 'Ismaël Koné', 'Alistair Johnston', 'Đorđe Mihailović', 'Joaquin Torres', 'Romell Quioto'])
+      team1 = Team('CF Montréal', 0, 0, 0, 72, 72, 72, 72, 72, ['Thomas Gillier', 'Luca Petrasso', 'Efraín Morales', 'Brandan Craig', 'Dawid Bugaj', 'Victor Loturi', 'Olger Escobar', 'Matty Longstaff', 'Dante Sealy', 'Prince Owusu', 'Hennadiy Synchuk'])
       #Toronto FC stats and lineup
-      team2 = Team('Toronto FC', 0, 0, 0, 74, 74, 74, 74, 74, ['Alex Bono', "Shane O'Neill", 'Carlos Salcedo', 'Lukas MacNaughton', 'Jacob Shaffelburg', 'Jonathan Osorio', 'Michael Bradley', 'Kosi Thompson', 'Luca Petrasso', 'Alejandro Pozuelo', 'Jesús Jiménez'])
+      team2 = Team('Toronto FC', 0, 0, 0, 74, 74, 74, 74, 74, ['Sean Johnson', 'Richie Laryea', 'Kosi Thompson', 'Kevin Long', 'Kobe Franklin', 'Maxime Dominguez', 'Jonathan Osorio', 'Alonso Coello', 'Đorđe Mihailović', 'Ola Brynhildsen', 'Theo Corbeanu'])
       break
     else:
       #if user inputs anything other than '1', '2', or '3', the screen is cleared and user can return to menu
