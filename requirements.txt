@@ -1,0 +1,7 @@
+# Football Simulator has no external dependencies.
+# It uses only Python standard library modules:
+#   - random
+#   - time
+#   - os
+#
+# Requires Python 3.6+
