@@ -70,7 +70,7 @@ while True:
     print(yellowc + "  6. MLS (USA)")
     print(yellowc + "  7. UCL Finals (Europe)")
     print(yellowc + "  8. Custom match")
-    league = input("> " + white)
+    league = input("> " + dark_grey)
     os.system("clear")
 
     if league == "1" or league == "Premier League":
@@ -250,15 +250,15 @@ while True:
     elif league == "8" or league == "Custom match":
         os.system("clear")
         print(magenta + "Home team name:")
-        T1 = input(white + "> ")
+        T1 = input(dark_grey + "> ")
         print(magenta + "Away team name:")
-        T2 = input(white + "> ")
+        T2 = input(dark_grey + "> ")
         print()
         # Let the user enter up to 11 players per side (or fewer)
         print(magenta + f"Enter up to 11 players for {T1} (press ENTER on empty line to stop):")
         players1 = []
         for _ in range(11):
-            p = input(white + "  > ").strip()
+            p = input(dark_grey + "  > ").strip()
             if p == "":
                 break
             players1.append(p)
@@ -268,7 +268,7 @@ while True:
         print(magenta + f"Enter up to 11 players for {T2} (press ENTER on empty line to stop):")
         players2 = []
         for _ in range(11):
-            p = input(white + "  > ").strip()
+            p = input(dark_grey + "  > ").strip()
             if p == "":
                 break
             players2.append(p)
@@ -347,7 +347,7 @@ def matchday(match):
 
         elif n1 < 284:
             # VAR penalty review
-            print(blue_back + "VAR Decision: Possible Penalty Review! " + white + "📺")
+            print(blue_back + "VAR Decision: Possible Penalty Review! " + dark_grey + "📺")
             time.sleep(3)
             nvar_1 = random.randint(1, 100)
             nvar_2 = random.randint(1, 100)
@@ -397,18 +397,18 @@ def matchday(match):
         print(green + "⚽ Goal scorers:" + white)
         for team, minute, scorer in all_goals:
             extra = f"90+{minute-90}" if minute > 90 else str(minute)
-            print(f"  {team.name}: {scorer} ({extra}')")
+            print(dark_grey + f"  {team.name}: {scorer} ({extra}')" + white)
     else:
         print(yellowc + "No goals scored." + white)
 
 # ── Pre-match screen ───────────────────────────────────────────────────
 print("\n" * 15)
 print(green + "Today's match...")
-print(white + "______________________\n" + blue)
+print(dark_grey + "______________________\n" + blue)
 print(team1.name + yellowc + " vs. " + blue + team2.name)
 print()
-print("Press ENTER to continue:")
-input(white + "")
+print(dark_grey + "Press ENTER to continue:")
+input(dark_grey + "")
 
 # ── Predictions ────────────────────────────────────────────────────────
 def get_int_prediction(team_name):
@@ -424,8 +424,8 @@ pred1 = get_int_prediction(team1.name)
 pred2 = get_int_prediction(team2.name)
 
 print()
-print(f"Your prediction: {team1.name} {pred1}-{pred2} {team2.name}")
-print("Kickoff will begin shortly... Do not press anything.")
+print(dark_grey + f"Your prediction: {team1.name} {pred1}-{pred2} {team2.name}")
+print(dark_grey + "Kickoff will begin shortly... Do not press anything.")
 time.sleep(2)
 os.system("clear")
 
