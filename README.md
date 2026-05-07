@@ -98,9 +98,10 @@ football-simulator/
 Contributions are welcome! Some ideas if you want to help:
 
 - Add more leagues or matchups
-- Add an extra time / penalty shootout mode for drawn UCL finals
+- Add an extra time / penalty shootout mode
 - Add player ratings that influence individual goal probability
 - Add a season/tournament mode
+- Add player substitutions
 
 Feel free to open an issue or submit a pull request.
 
