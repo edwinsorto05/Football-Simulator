@@ -3,7 +3,7 @@ import random
 import time
 import os
 
-# Text colors 
+# ── Text colors ────────────────────────────────────────────────────────
 redc       = "\033[0;91m"
 yellowc    = "\033[0;93m"
 green      = "\033[0;92m"
@@ -12,8 +12,35 @@ magenta    = "\033[0;95m"
 white      = "\033[0;97m"
 blue_back  = "\033[0;44m"
 grey_back  = "\033[0;40m"
+dark_grey  = "\033[0;90m"   # for live minute ticker
 
-# Team class
+# ── Position-weighted scorer selection ────────────────────────────────
+# Player list convention (index): 0=GK, 1-4=DEF, 5-7=MID, 8-10=ATT
+# Weights reflect real-world scoring likelihood per position.
+SCORER_WEIGHTS = [
+    1,   # 0  GK  — almost never scores
+    3,   # 1  DEF
+    3,   # 2  DEF
+    3,   # 3  DEF
+    3,   # 4  DEF
+    8,   # 5  MID
+    8,   # 6  MID
+    8,   # 7  MID
+    20,  # 8  ATT
+    20,  # 9  ATT
+    20,  # 10 ATT
+]
+
+def pick_scorer(players):
+    """Return a player name weighted by position (attackers most likely)."""
+    n = len(players)
+    if n == 1:
+        return players[0]
+    # Trim weights list to however many players are actually in the squad
+    weights = SCORER_WEIGHTS[:n]
+    return random.choices(players, weights=weights, k=1)[0]
+
+# ── Team class ─────────────────────────────────────────────────────────
 class Team:
     def __init__(self, name, score, goaldif, goals, attack, defense, luck, speed, stamina, player):
         self.name       = name
@@ -29,7 +56,7 @@ class Team:
         self.player     = player
         self.scorers    = []        # log of (minute, player_name)
 
-# ── League / matchup selection
+# ── League / matchup selection ─────────────────────────────────────────
 while True:
     print(blue_back + "Welcome to Football Simulator! ⚽")
     print(blue + "Press ENTER to continue:")
@@ -261,8 +288,8 @@ match = [team1, team2]
 # ── Event procedures ───────────────────────────────────────────────────
 
 def goal(team, minute):
-    """Credit a goal to a random player and log it for the match summary."""
-    scorer = random.choice(team.player)   # fixed: choice() works for any list size
+    """Credit a goal to a position-weighted player and log it for the match summary."""
+    scorer = pick_scorer(team.player)   # attackers most likely, GK almost never
     print(green + f"Goal {team.name}! {scorer} scores! ⚽" + white)
     team.score  += 1
     team.scorers.append((minute, scorer))
@@ -326,9 +353,13 @@ def matchday(match):
             nvar_2 = random.randint(1, 100)
             varteam = match[0] if (match[0].luck + nvar_1) > (match[1].luck + nvar_2) else match[1]
             if random.randint(0, 10) > 3:
-                print(blue + f"Penalty given for {varteam.name}!")
+                # Penalty taker is also position-weighted (attackers step up)
+                penalty_taker = pick_scorer(varteam.player)
+                print(blue + f"Penalty given for {varteam.name}! {penalty_taker} steps up...")
                 if random.randint(0, 4) > 1:
-                    goal(varteam, minute)
+                    print(green + f"Goal {varteam.name}! {penalty_taker} scores! ⚽" + white)
+                    varteam.score += 1
+                    varteam.scorers.append((minute, penalty_taker))
                 else:
                     print(redc + "Missed Penalty! ❌" + white)
             else:
@@ -351,7 +382,7 @@ def matchday(match):
             red(match[n2])
 
         time.sleep(0.2)
-        print(min_label)
+        print(dark_grey + min_label + white)
         minute += 1
 
     # ── Full-time summary ────────────────────────────────────────────
@@ -415,5 +446,5 @@ else:
 print(yellowc + "\n\nPress ENTER to return to menu:")
 input()
 os.system("clear")
-# Re-exec this same script cleanly instead of spawning a child process
-os.execv(__file__, [__file__])
+# Replace this process with a fresh run of the same script — no stacking
+os.execv(__import__("sys").executable, [__import__("sys").executable, __file__])
