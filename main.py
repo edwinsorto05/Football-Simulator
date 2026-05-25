@@ -340,26 +340,26 @@ while True:
         if seriea == '1' or seriea == 'Inter Milan vs. AC Milan':
             team1 = Team('Inter Milan', 0,0,0, 87,87,87,87,87,
                          ['Yann Sommer','Alessandro Bastoni','Francesco Acerbi','Manuel Akanji','Federico Dimarco','Petar Sučić','Hakan Çalhanoğlu','Nicolò Barella','Carlos Augusto','Marcus Thuram','Lautaro Martínez'],
-                         bench=['Josep Martínez','Stefan de Vrij','Denzel Dumfries','Kristjan Asllani','Marko Arnautović'])
+                         bench=['Josep Martínez','Stefan de Vrij','Denzel Dumfries','Piotr Zieliński','Pio Esposito'])
             team2 = Team('AC Milan', 0,0,0, 84,84,84,84,84,
                          ['Mike Maignan','Strahinja Pavlović','Matteo Gabbia','Fikayo Tomori','Davide Bartesaghi','Adrien Rabiot','Luka Modrić','Youssouf Fofana','Alexis Saelemaekers','Rafael Leão','Christian Pulisic'],
-                         bench=['Marco Sportiello','Emerson Royal','Theo Hernández','Ruben Loftus-Cheek','Tammy Abraham'])
+                         bench=['Pietro Terracciano','Samuele Ricci','Pervis Estupiñán','Ruben Loftus-Cheek','Christopher Nkunku'])
             break
         elif seriea == '2' or seriea == 'Juventus vs. Roma':
             team1 = Team('Juventus', 0,0,0, 84,84,84,84,84,
                          ['Michele Di Gregorio','Lloyd Kelly','Gleison Bremer','Pierre Kalulu','Andrea Cambiaso','Khéphren Thuram','Manuel Locatelli','Weston McKennie','Kenan Yıldız','Francisco Conceição','Loïs Openda'],
-                         bench=['Carlo Pinsoglio','Danilo','Nicolás González','Nicolò Fagioli','Dusan Vlahović'])
+                         bench=['Mattia Perin','Daniele Rugani','Fabio Miretti','Jonathan David','Dusan Vlahović'])
             team2 = Team('Roma', 0,0,0, 84,84,84,84,84,
                          ['Mile Svilar','Devyne Rensch','Jan Ziółkowski','Gianluca Mancini','Wesley França','Manu Koné','Bryan Cristante','Mehmet Zeki Çelik','Lorenzo Pellegrini','Matías Soulé','Paulo Dybala'],
-                         bench=['Ryan Mangan','Rasmus Kristensen','Mario Hermoso','Leandro Paredes','Artem Dovbyk'])
+                         bench=['Pierluigi Gollini','Mario Hermoso','Konstantinos Tsimikas','Stephan El Shaarawy','Evan Ferguson'])
             break
         elif seriea == '3' or seriea == 'Napoli vs. Juventus':
             team1 = Team('Napoli', 0,0,0, 85,85,85,85,85,
                          ['Alex Meret','Juan Jesus','Alessandro Buongiorno','Giovanni Di Lorenzo','Leonardo Spinazzola','Scott McTominay','Stanislav Lobotka','Miguel Gutiérrez','Eljif Elmas','Rasmus Højlund','Antonio Vergara'],
-                         bench=['Elia Caprile','Rafa Marín','Pasquale Mazzocchi','Giacomo Raspadori','David Neres'])
+                         bench=['Vanja Milinković-Savić','Mathías Olivera','Sam Beukema','Giovane','Romelu Lukaku'])
             team2 = Team('Juventus', 0,0,0, 84,84,84,84,84,
                          ['Michele Di Gregorio','Andrea Cambiaso','Lloyd Kelly','Gleison Bremer','Pierre Kalulu','Manuel Locatelli','Khéphren Thuram','Kenan Yıldız','Weston McKennie','Francisco Conceição','Jonathan David'],
-                         bench=['Carlo Pinsoglio','Danilo','Nicolás González','Nicolò Fagioli','Dusan Vlahović'])
+                         bench=['Mattia Perin','Federico Gatti','Fabio Miretti','Teun Koopmeiners','Federico Gatti'])
             break
         else:
             os.system("clear")
@@ -373,28 +373,28 @@ while True:
         laliga = input("> ")
         print(white + "")
         if laliga == '1' or laliga == 'Real Madrid vs. Barcelona':
-            team1 = Team('Real Madrid', 0,0,0, 88,88,88,88,88,
+            team1 = Team('Real Madrid', 0,0,0, 86,86,86,86,86,
                          ['Thibaut Courtois','Álvaro Carreras','Dean Huijsen','Raúl Asencio','Federico Valverde','Jude Bellingham','Aurélien Tchouaméni','Eduardo Camavinga','Vinícius Júnior','Kylian Mbappé','Rodrygo'],
-                         bench=['Andriy Lunin','Éder Militão','Dani Carvajal','Luka Modrić','Endrick'])
+                         bench=['Andriy Lunin','Éder Militão','Trent Alexander-Arnold','Brahim Díaz','Gonzalo García'])
             team2 = Team('Barcelona', 0,0,0, 88,88,88,88,88,
                          ['Joan García','Alejandro Balde','Eric García','Pau Cubarsí','Jules Koundé','Pedri','Frenkie de Jong','Fermín López','Raphinha','Robert Lewandowski','Lamine Yamal'],
-                         bench=['Iñaki Peña','Gerard Martín','Íñigo Martínez','Dani Olmo','Ansu Fati'])
+                         bench=['Wojciech Szczęsny','Gerard Martín','Marc Bernal','Marcus Rashford','Ferran Torres'])
             break
         elif laliga == '2' or laliga == 'Atlético Madrid vs Real Madrid':
-            team1 = Team('Atlético Madrid', 0,0,0, 87,87,87,87,87,
+            team1 = Team('Atlético Madrid', 0,0,0, 86,86,86,86,86,
                          ['Jan Oblak','Matteo Ruggeri','Dávid Hancko','Marc Pubill','Marcos Llorente','Álex Baena','Pablo Barrios','Koke','Giuliano Simeone','Julián Alvarez','Alexander Sørloth'],
-                         bench=['Antonio Gomis','José María Giménez','Clément Lenglet','Rodrigo De Paul','Memphis Depay'])
-            team2 = Team('Real Madrid', 0,0,0, 88,88,88,88,88,
+                         bench=['Juan Musso','José María Giménez','Nahuel Molina','Thiago Almada','Antoine Griezmann'])
+            team2 = Team('Real Madrid', 0,0,0, 86,86,86,86,86,
                          ['Thibaut Courtois','Álvaro Carreras','Antonio Rüdiger','Raúl Asencio','Federico Valverde','Jude Bellingham','Aurélien Tchouaméni','Eduardo Camavinga','Rodrygo','Vinícius Júnior','Gonzalo García'],
-                         bench=['Andriy Lunin','Éder Militão','Dani Carvajal','Luka Modrić','Endrick'])
+                         bench=['Andriy Lunin','Éder Militão','Fran García','Franco Mastantuono','Arda Güler'])
             break
         elif laliga == '3' or laliga == 'Barcelona vs. Atlético Madrid':
             team1 = Team('Barcelona', 0,0,0, 88,88,88,88,88,
                          ['Joan García','Alejandro Balde','Gerard Martín','Pau Cubarsí','Jules Koundé','Dani Olmo','Eric García','Pedri','Raphinha','Robert Lewandowski','Lamine Yamal'],
-                         bench=['Iñaki Peña','Íñigo Martínez','Héctor Fort','Fermín López','Ansu Fati'])
+                         bench=['Iñaki Peña','Andreas Christensen','Marc Casadó','Marcus Rashford','Ferran Torres'])
             team2 = Team('Atlético Madrid', 0,0,0, 87,87,87,87,87,
                          ['Jan Oblak','Dávid Hancko','Clément Lenglet','José María Giménez','Nahuel Molina','Pablo Barrios','Johnny Cardoso','Nicolás González','Álex Baena','Giuliano Simeone','Julián Alvarez'],
-                         bench=['Antonio Gomis','Marcos Llorente','Rodrigo De Paul','Antoine Griezmann','Memphis Depay'])
+                         bench=['Juan Musso','Matteo Ruggeri','Conor Gallagher','Koke','Antoine Griezmann'])
             break
         else:
             os.system("clear")
@@ -410,26 +410,26 @@ while True:
         if bundesliga == '1' or bundesliga == 'Bayern Munich vs. Borussia Dortmund':
             team1 = Team('Bayern Munich', 0,0,0, 89,89,89,89,89,
                          ['Manuel Neuer','Konrad Laimer','Jonathan Tah','Dayot Upamecano','Sacha Boey','Aleksandar Pavlović','Joshua Kimmich','Luis Díaz','Serge Gnabry','Michael Olise','Harry Kane'],
-                         bench=['Daniel Peretz','Alphonso Davies','Min-jae Kim','Leon Goretzka','Thomas Müller'])
+                         bench=['Jonas Urbig','Alphonso Davies','Min-jae Kim','Leon Goretzka','Lennart Karl'])
             team2 = Team('Borussia Dortmund', 0,0,0, 84,84,84,84,84,
                          ['Gregor Kobel','Nico Schlotterbeck','Waldemar Anton','Niklas Süle','Daniel Svensson','Felix Nmecha','Pascal Groß','Marcel Sabitzer','Julian Ryerson','Karim Adeyemi','Serhou Guirassy'],
-                         bench=['Alexander Meyer','Ramy Bensebaini','Giovanni Reyna','Donyell Malen','Maximilian Beier'])
+                         bench=['Alexander Meyer','Ramy Bensebaini','Jobe Bellingham','Julian Brandt','Maximilian Beier'])
             break
         elif bundesliga == '2' or bundesliga == 'Borussia Dortmund vs. RB Leipzig':
             team1 = Team('Borussia Dortmund', 0,0,0, 84,84,84,84,84,
                          ['Gregor Kobel','Ramy Bensebaini','Waldemar Anton','Luca Reggiani','Daniel Svensson','Jobe Bellingham','Julian Ryerson','Marcel Sabitzer','Felix Nmecha','Serhou Guirassy','Maximilian Beier'],
-                         bench=['Alexander Meyer','Nico Schlotterbeck','Niklas Süle','Giovanni Reyna','Karim Adeyemi'])
+                         bench=['Alexander Meyer','Nico Schlotterbeck','Yan Couto','Fábio Silva','Karim Adeyemi'])
             team2 = Team('RB Leipzig', 0,0,0, 84,84,84,84,84,
                          ['Maarten Vandevoordt','David Raum','Castello Lukeba','Willi Orbán','Ridle Baku','Nicolas Seiwald','Xaver Schlager','Yan Diomande','Christoph Baumgartner','Brajan Gruda','Rômulo Cardoso'],
-                         bench=['Janis Blaswich','Lukas Klostermann','Mohamed Simakan','Kevin Kampl','Loïs Openda'])
+                         bench=['Péter Gulácsi','Benjamin Henrichs','Ezechiel Banzuzi','Antonio Nusa','Johan Bakayokko'])
             break
         elif bundesliga == '3' or bundesliga == 'RB Leipzig vs. Bayern Munich':
             team1 = Team('RB Leipzig', 0,0,0, 84,84,84,84,84,
                          ['Maarten Vandevoordt','David Raum','Castello Lukeba','Willi Orbán','Ridle Baku','Christoph Baumgartner','Xaver Schlager','Nicolas Seiwald','Antonio Nusa','Rômulo Cardoso','Yan Diomande'],
-                         bench=['Janis Blaswich','Lukas Klostermann','Mohamed Simakan','Kevin Kampl','Loïs Openda'])
+                         bench=['Péter Gulácsi','El Chadaille Bitshiabu','Conrad Harder','Brajan Gruda','Tidiam Gomis'])
             team2 = Team('Bayern Munich', 0,0,0, 89,89,89,89,89,
                          ['Manuel Neuer','Alphonso Davies','Jonathan Tah','Dayot Upamecano','Josip Stanišić','Aleksandar Pavlović','Joshua Kimmich','Luis Díaz','Serge Gnabry','Michael Olise','Harry Kane'],
-                         bench=['Daniel Peretz','Min-jae Kim','Konrad Laimer','Leon Goretzka','Thomas Müller'])
+                         bench=['Jonas Urbig','Min-jae Kim','Konrad Laimer','Leon Goretzka','Jamal Musiala'])
             break
         else:
             os.system("clear")
@@ -448,23 +448,23 @@ while True:
                          bench=['Matvei Safonov','Nuno Mendes','Marquinhos','Ousmane Dembélé','Désiré Doué'])
             team2 = Team('Lyon', 0,0,0, 83,83,83,83,83,
                          ['Dominik Greif','Moussa Niakhaté','Clinton Mata','Ruben Kluivert','Nicolás Tagliafico','Tyler Morton','Tanner Tessmann','Ainsley Maitland-Niles','Afonso Moreira','Khalis Merah','Rachid Ghezzal'],
-                         bench=['Lucas Perri','Dejan Lovren','Saël Kumbedi','Corentin Tolisso','Alexandre Lacazette'])
+                         bench=['Rémy Descamps','Teo Barišić','Mathys De Carvalho','Corentin Tolisso','Adam Karabec'])
             break
         elif ligue1 == '2' or ligue1 == 'Marseille vs. PSG':
             team1 = Team('Marseille', 0,0,0, 82,82,82,82,82,
                          ['Jeffrey de Lange','Facundo Medina','Leonardo Balerdi','Benjamin Pavard','Emerson','Pierre-Emile Højbjerg','Quinten Timber','Timothy Weah','Ethan Nwaneri','Mason Greenwood','Amine Gouiri'],
-                         bench=['Ruben Blanco','Lilian Brassier','Jonathan Clauss','Valentin Rongier','Neal Maupay'])
+                         bench=['Gerónimo Rulli','CJ Egan-Riley','Bilal Nadir','Igor Paixão','Pierre-Emerick Aubameyang'])
             team2 = Team('PSG', 0,0,0, 88,88,88,88,88,
                          ['Matvei Safonov','Nuno Mendes','Willian Pacho','Marquinhos','Warren Zaïre-Emery','João Neves','Vitinha','Senny Mayulu','Bradley Barcola','Ousmane Dembélé','Désiré Doué'],
-                         bench=['Lucas Chevalier','Lucas Hernández','Illia Zabarnyi','Fabián Ruiz','Khvicha Kvaratskhelia'])
+                         bench=['Lucas Chevalier','Lucas Hernández','Illia Zabarnyi','Lee Kang-in','Khvicha Kvaratskhelia'])
             break
         elif ligue1 == '3' or ligue1 == 'Lyon vs. Monaco':
             team1 = Team('Lyon', 0,0,0, 83,83,83,83,83,
                          ['Dominik Greif','Nicolás Tagliafico','Clinton Mata','Ruben Kluivert','Abner Vinícius','Tyler Morton','Corentin Tolisso','Ainsley Maitland-Niles','Khalis Merah','Pavel Šulc','Afonso Moreira'],
-                         bench=['Lucas Perri','Dejan Lovren','Saël Kumbedi','Tanner Tessmann','Alexandre Lacazette'])
+                         bench=['Rémy Descamps','Hans Hateboer','Orel Mangala','Tanner Tessmann','Adam Karabec'])
             team2 = Team('Monaco', 0,0,0, 83,83,83,83,83,
                          ['Lukas Hradecky','Caio Henrique','Mohammed Salisu','Thilo Kehrer','Christian Mawissa','Aleksandr Golovin','Jordan Teze','Mamadou Coulibaly','Maghnes Akliouche','Folarin Balogun','Mika Biereth'],
-                         bench=['Radosław Majecki','Wilfried Singo','Youssouf Fofana','Eliesse Ben Seghir','Breel Embolo'])
+                         bench=['Philipp Köhn','Eric Dier','Kassoum Ouattara','Stanis Idumbo','George Ilenikhena'])
             break
         else:
             os.system("clear")
@@ -479,27 +479,27 @@ while True:
         print(white + "")
         if mls == '1' or mls == 'New England Revolution vs. New York Red Bulls':
             team1 = Team('New England Revolution', 0,0,0, 75,75,75,75,75,
-                         ['Aljaž Ivačič','Tanner Beason','Keegan Hughes','Brayan Ceballos','Brandon Bye','Alhassan Yusuf','Matt Polster','Peyton Miller','Carles Gil','Luca Langoni','Leonardo Campana'],
-                         bench=['Earl Edwards Jr.','Andrew Farrell','Henry Kessler','Tommy McNamara','Giacomo Vrioni'])
+                         ['Matt Turner','Will Sands','Mamadou Fofana','Brayan Ceballos','Ilay Feingold','Brooklyn Raines','Matt Polster','Griffin Yow','Carles Gil','Luca Langoni','Dor Turgeman'],
+                         bench=['Donovan Parisian','Tanner Beason','Alhassan Yusuf','Tommy McNamara','Malcolm Fry'])
             team2 = Team('New York Red Bulls', 0,0,0, 75,75,75,75,75,
-                         ['Carlos Coronel','Omar Velencia','Noah Eile','Sean Nealis','Kyle Duncan','Ronald Donkor','Daniel Edelman','Wikelman Carmona','Emil Forsberg','Mohammed Sofo','Eric Maxim Choupo-Moting'],
-                         bench=['Ryan Meara','Tom Edwards','John Tolkin','Dante Vanzeir','Lewis Morgan'])
+                         ['Ethan Horvath','Matthew Dos Santos','Dylan Nealis','Justin Che','Jahkeele Marshall-Rutty','Emil Forsberg','Adri Mehmeti','Ronald Donkor','Jorge Ruvalcaba','Julian Hall','Cade Cowell'],
+                         bench=['John McCarthy','Omar Valencia','Andy Rojas','Tanner Rosborough','Eric Maxim Choupo-Moting'])
             break
         elif mls == '2' or mls == 'LAFC vs. Inter Miami':
             team1 = Team('LAFC', 0,0,0, 79,79,79,79,79,
                          ['Hugo Lloris','Eddie Segura','Ryan Porteous','Nkosi Tafari','Sergi Palencia','Marco Delgaldo','Stephen Eustáquio','Timothy Tillman','Denis Bouanga','Son Heung-min','David Martínez'],
-                         bench=['John McCarthy','Maxime Chanot','Diego Palacios','Ilie Sánchez','Olivier Giroud'])
+                         bench=['Thomas Hasal','Ryan Hollingshead','Mathieu Choinière','Tyler Boyd','Nathan Ordaz'])
             team2 = Team('Inter Miami', 0,0,0, 79,79,79,79,79,
                          ['Dayne St. Clair','Noah Allen','Micael','Maximiliano Falcón','Ian Fray','Yannick Bright','Rodrigo De Paul','Telasco Segovia','Lionel Messi','Mateo Silvetti','Germán Berterame'],
-                         bench=['Oscar Ustari','DeAndre Yedlin','Marcelo Weigandt','Federico Redondo','Luis Suárez'])
+                         bench=['Rocco Ríos Novo','Gonzalo Luján','David Ayala','Tadeo Allende','Luis Suárez'])
             break
         elif mls == '3' or mls == 'CF Montréal vs. Toronto FC':
             team1 = Team('CF Montréal', 0,0,0, 72,72,72,72,72,
                          ['Thomas Gillier','Luca Petrasso','Efraín Morales','Brandan Craig','Dawid Bugaj','Victor Loturi','Olger Escobar','Matty Longstaff','Dante Sealy','Prince Owusu','Hennadiy Synchuk'],
-                         bench=['James Pantemis','Gabriele Corbo','Joaquín Torres','Djordje Mihailovic','Romell Quioto'])
+                         bench=['Jonathan Sirois','Fernando Álvarez','Bode Hidalgo','Bryce Duke','Romell Quioto'])
             team2 = Team('Toronto FC', 0,0,0, 74,74,74,74,74,
                          ['Sean Johnson','Richie Laryea','Kosi Thompson','Kevin Long','Kobe Franklin','Maxime Dominguez','Jonathan Osorio','Alonso Coello','Đorđe Mihailović','Ola Brynhildsen','Theo Corbeanu'],
-                         bench=['Greg Ranjitsingh','Sigurd Rosted','Raoul Petretta','Deandre Kerr','Lorenzo Insigne'])
+                         bench=['Luka Gavran','Lazar Stefanovic','Jose Cifuentes','Derrick Etienne Jr.','Deandre Kerr'])
             break
         else:
             os.system("clear")
