@@ -1,6 +1,6 @@
 # ⚽ Football Simulator
 
-A terminal-based football (soccer) match simulator written in Python. Pick a league, choose a matchup, make your own score prediction, and watch the match play out minute by minute — complete with goals, cards, VAR decisions, and stoppage time.
+A terminal-based football (soccer) match simulator written in Python. Pick a league, choose a matchup, make your own score prediction, and watch the match play out minute by minute.
 
 ---
 
@@ -42,11 +42,11 @@ Press ENTER to continue:
 
 - **Minute-by-minute simulation** across a full 90-minute match
 - **Stoppage time** — 1 to 5 extra minutes generated randomly per half
-- **Stamina degradation** — teams get slightly slower in the second half
+- **Stamina degradation** — players get slightly slower in the second half
 - **Dynamic events** — goals, yellow cards, red cards, and VAR penalty reviews
 - **Named goal scorers** — each goal is credited to a real squad player
-- **Full-time summary** — sorted goal scorer log with exact minutes
-- **Score prediction** — make your prediction before kickoff and find out if you're right
+- **Full-time summary** — a complete, sorted goal scorer log for both teams
+- **Score prediction** — make your prediction before kickoff and find out if you're correct
 - **Custom matches** — enter your own team names and up to 11 players per side
 
 ---
@@ -98,13 +98,19 @@ football-simulator/
 Contributions are welcome! Some ideas if you want to help:
 
 - Add more leagues or matchups
-- Add an extra time / penalty shootout mode
+- Add an extra time / penalty shootout mode for knockout matches
 - Add player ratings that influence individual goal probability
 - Add a season/tournament mode
 - Add player substitutions
 
 Feel free to open an issue or submit a pull request.
 
+---
+## ⚡ Performance
+- Simulates a full 90-minute match with stoppage time in **under 1 second**
+- 7 leagues, 24 pre-built real-world teams, 11 players per squad
+- 4 distinct event types: goals, VAR/penalty reviews, yellow cards, red cards
+- Position-weighted scorer selection — attackers 20× more likely to score than goalkeeper
 ---
 
 ## 📄 License
