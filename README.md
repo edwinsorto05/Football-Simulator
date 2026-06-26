@@ -23,7 +23,7 @@ Press ENTER to continue:
 
 ---
 
-## 🌍 Leagues & Matchups
+## Leagues & Matchups
 
 | League | Matchups |
 |---|---|
@@ -38,7 +38,7 @@ Press ENTER to continue:
 
 ---
 
-## ✨ Features
+## Features
 
 - **Minute-by-minute simulation** across a full 90-minute match
 - **Stoppage time** — 1 to 5 extra minutes generated randomly per half
@@ -51,7 +51,7 @@ Press ENTER to continue:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 - Python 3.6 or higher
@@ -69,7 +69,7 @@ python main.py
 
 ---
 
-## 🎮 How to Play
+## How to Play
 
 1. Run `main.py`
 2. Select a league by entering its number
@@ -93,7 +93,7 @@ football-simulator/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Some ideas if you want to help:
 
